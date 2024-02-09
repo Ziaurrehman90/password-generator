@@ -22,3 +22,7 @@ Overall, the Password Generator project offers a convenient solution for users t
 
 
 ![Screenshot (210)](https://github.com/Ziaurrehman90/password-generator/assets/112377951/f5f73642-80d4-4be8-a612-784577f99476)
+
+
+
+Live Demo of the Project : https://ziaurrehman90.github.io/password-generator/
