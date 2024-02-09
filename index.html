@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+
+</head>
+<body class="body">
+    <div class="heading">
+        <h1 class="h1">Password Generator</h1> 
+        <div class="spanning">
+            <span id="result">click on the Generate button</span> <br>
+        </div>
+        <span id="ShowError"></span>
+
+        <div class="buttions">
+          <button class="bt1" id="generate">Generate</button>
+          <button class="bt2" id="clipboard">Copy To Clipboard</button>
+          </div>
+          <div class="next_items">
+            <div class="password_length">
+                <label for="length">Password Length</label>
+                <input type="number" name="" id="length" value="12" min="4" max="20" class="ip">
+            </div>
+            <div class="uppercase">
+                  <label for="ul">Include uppercase letters</label>
+                <input type="checkbox" name="" id="uppercase" class="ip1">
+            </div>
+           
+          <div class="lowercase">
+            <label for="ll">Include lowercase letters</label>
+          <input type="checkbox" name="" id="lowercase" class="ip1">
+      </div>
+      <div class="numbers">
+        <label for="nn">Include numbers</label>
+      <input type="checkbox" name="" id="numbers" class="ip1">
+  </div>
+  <div class="symbols">
+    <label for="sm">Include symbols</label>
+  <input type="checkbox" name="" id="symbols" class="ip1">
+</div>
+          </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
